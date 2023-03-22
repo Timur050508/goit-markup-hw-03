@@ -1,0 +1,189 @@
+:root {
+  --stcolor: #434455;
+  --whcolor: #ffffff;
+  --pcolor: #4d5ae5;
+  --bcolor: #2e2f42;
+  --pucolor: #404bbf;
+  --wwcolor: #f4f4fd;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--stcolor);
+  background-color: var(--whcolor);
+}
+
+.logo-link {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--pcolor);
+}
+
+.studio {
+  color: var(--bcolor);
+}
+
+.list {
+  list-style: none;
+}
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--bcolor);
+}
+
+.header-nav-link:hover {
+  color: var(--pucolor);
+}
+
+.header-nav-link:focus {
+  color: var(--pucolor);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+.ada {
+  color: var(--stcolor);
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.ada:hover {
+  color: var(--pucolor);
+}
+
+.ada:focus {
+  color: var(--pucolor);
+}
+
+.first_section {
+  background-color: var(--bcolor);
+}
+
+.sth {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--whcolor);
+}
+
+.button {
+  background-color: var(--pcolor);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--whcolor);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--pucolor);
+}
+.button:focus {
+  background-color: var(--pucolor);
+}
+
+.zagovolok {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--bcolor);
+}
+
+.petuh {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--stcolor);
+}
+
+.what {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--bcolor);
+}
+
+.last_sec {
+  background-color: var(--wwcolor);
+}
+
+.pngg {
+  background-color: var(--whcolor);
+}
+.footer {
+  background-color: var(--bcolor);
+}
+
+.studios {
+  color: var(--wwcolor);
+}
+
+.but {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--pcolor);
+  background-color: var(--wwcolor);
+  cursor: pointer;
+}
+
+.but:hover {
+  color: var(--whcolor);
+  background-color: var(--pucolor);
+}
+
+.but:focus {
+  color: var(--whcolor);
+  background-color: var(--pucolor);
+}
+
+.port_li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--bcolor);
+}
+
+.port_p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--stcolor);
+}
+
+.port_footer {
+  background-color: var(--bcolor);
+}
+
+.last {
+  font-family: Roboto, sans-serif;
+  color: var(--wwcolor);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 0.02em;
+}
